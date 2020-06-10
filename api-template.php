@@ -18,7 +18,7 @@ if(isset($_POST['form_id'])){
         $tags = isset($_POST['form_tag']) ? $_POST['form_tag'] : ''; //1571557
     
         $postRequest = array(
-            'api_key' => 'VikL3dTmJPL_i5IuES4REw',
+            'api_key' => '',//Vik23dTmJsdsduES4REw
             'email' => $email,
             'first_name' => $name,
             'tags' => $tags, // enter the tag id here
